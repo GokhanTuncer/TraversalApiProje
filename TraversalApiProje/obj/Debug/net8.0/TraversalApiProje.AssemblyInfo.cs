@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TraversalApiProje")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96e7b0f4227325c6b4244dbb16d7c2747d268cce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+146b866edbc1283bda8fecc4ec941f90cd8f918f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TraversalApiProje")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TraversalApiProje")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -47,7 +47,7 @@ namespace TraversalApiProje.Controllers
                
             }
         }
-        [HttpGet("{id}")]
+        [HttpDelete("{id}")]
         public IActionResult DeleteVisitor(int id)
         {
             using (var context = new VisitorContext())

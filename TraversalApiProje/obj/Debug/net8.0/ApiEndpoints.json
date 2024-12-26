@@ -26,6 +26,54 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TraversalApiProje.Controllers.VisitorController",
+    "Method": "UpdateVisitor",
+    "RelativePath": "api/Visitor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "visitor",
+        "Type": "TraversalApiProje.Controllers.DAL.Entities.Visitor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TraversalApiProje.Controllers.VisitorController",
+    "Method": "VisitorGet",
+    "RelativePath": "api/Visitor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TraversalApiProje.Controllers.VisitorController",
+    "Method": "DeleteVisitor",
+    "RelativePath": "api/Visitor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TraversalApiProje.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
