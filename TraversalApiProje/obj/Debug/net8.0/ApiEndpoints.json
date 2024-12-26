@@ -10,6 +10,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TraversalApiProje.Controllers.VisitorController",
+    "Method": "VisitorAdd",
+    "RelativePath": "api/Visitor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "visitor",
+        "Type": "TraversalApiProje.Controllers.DAL.Entities.Visitor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TraversalApiProje.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

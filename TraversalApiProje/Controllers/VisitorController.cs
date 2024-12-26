@@ -23,8 +23,9 @@ namespace TraversalApiProje.Controllers
         {
             using (var context = new VisitorContext())
             {
-                var values = context.Visitors.ToList();
-                return Ok(values);
+                context.Add(visitor);
+                context.SaveChanges();
+                return Ok();
             }
         }
     }
