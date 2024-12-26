@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TraversalApiProje.Controllers.DAL.Context;
+using TraversalApiProje.Controllers.DAL.Entities;
 
 namespace TraversalApiProje.Controllers
 {
@@ -14,7 +15,16 @@ namespace TraversalApiProje.Controllers
             using (var context = new VisitorContext())
             {
                 var values = context.Visitors.ToList();
-                return Ok();
+                return Ok(values);
+            }
+        }
+        [HttpPost]
+        public IActionResult VisitorAdd(Visitor visitor)
+        {
+            using (var context = new VisitorContext())
+            {
+                var values = context.Visitors.ToList();
+                return Ok(values);
             }
         }
     }
